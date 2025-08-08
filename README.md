@@ -1,4 +1,6 @@
 Installation Steps
+
+
 Step 1: Clone the Repository
 
 git clone https://github.com/yourusername/algo-trading-system.git
@@ -15,6 +17,7 @@ venv\Scripts\activate
 
 # On macOS/Linux:
 source venv/bin/activate
+
 Step 3: Install Dependencies
 bash
 pip install -r requirements.txt
@@ -22,11 +25,14 @@ pip install -r requirements.txt
 Search and enable:
 Google Sheets API
 Google Drive API
+
 Step 2: Create Service Account
 Go to "APIs & Services" → "Credentials"
 Click "Create Credentials" → "Service Account"
 Enter service account name and click "Create"
 Skip role assignment, click "Continue" then "Done"
+
+
 
 Step 3: Generate Credentials
 Click on your service account
@@ -42,6 +48,7 @@ Add the service account email (from credentials.json file)
 Give "Editor" permissions and click "Send"
 
 Telegram Bot Setup
+
 Step 1: Create Bot
 Open Telegram and search: @BotFather
 Send: /newbot
