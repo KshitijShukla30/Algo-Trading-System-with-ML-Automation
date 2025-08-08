@@ -31,8 +31,8 @@ INITIAL_CAPITAL = 100000  # 1 Lakh
 GOOGLE_SHEETS_NAME = "AlgoTrading_Portfolio"        
 GOOGLE_CREDENTIALS_FILE = "credentials.json"        
 # Telegram Bot configuration
-TELEGRAM_BOT_TOKEN = "8272460103:AAE0GhHY7LpEBJQgIx9iJtu4A6k4oZVct34"
-TELEGRAM_CHAT_ID = "5612702724"
+TELEGRAM_BOT_TOKEN = "enter your token"
+TELEGRAM_CHAT_ID = "user number"
 
 # ML Model parameters
 ML_FEATURES = ['RSI', 'MACD', 'MACD_signal', 'BB_upper', 'BB_lower', 'Volume_SMA', 'Price_Change']
