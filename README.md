@@ -1,10 +1,11 @@
-stallation Steps
+Installation Steps
 Step 1: Clone the Repository
-bash
+
 git clone https://github.com/yourusername/algo-trading-system.git
+
 cd algo-trading-system
 Step 2: Create Virtual Environment
-bash
+
 # Create virtual environment
 python -m venv venv
 
